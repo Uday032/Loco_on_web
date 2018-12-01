@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(ed.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+#Title{
+    
+                color: black;
+                font-size:130px;
+                font-family:cursive;
+                position: fixed;
+                top: 1%;
+                left: 33%;
+    
+}
+#Signup_page input{
+
+    margin: 10px;
+    left: 70%;
+    
+}
+#Welcome{
+    color: whitesmoke;
+    position: absolute;
+    left: 73%;
+    top: 220px;
+    font-size: 40px;
+    
+    
+}
+
+#Signup_page input [type],[type="text"],[type="integer"],[type="Password"]
+{
+    padding-left: 10px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+    font-weight: 100;  
+    color: white;
+    position: relative;
+    left: 800px;
+    top: 300px;
+    background: transparent;
+}
+::placeholder{
+    opacity: 1;
+}
+
+#SignUp_button input{
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10PX;
+    padding-right: 60px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 100;  
+    position: absolute;
+    left: 71.5%;
+    top: 680px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
